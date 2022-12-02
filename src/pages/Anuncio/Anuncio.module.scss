@@ -1,0 +1,102 @@
+@import 'styles/variaveis';
+@import 'styles/breakpoints';
+.voltar {
+  background-color: transparent;
+  border: none;
+  color: $red;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+.container {
+  
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  // gap: 20px;
+}
+.titulo {
+  font-size: 3rem;
+  }
+.conteudo {
+  padding: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  &__descricao {
+    padding: 40px;
+    color: $darkest-grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  &__empresa {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+$clt: #d73b3b;
+$pj: #30201e;
+$estagio: #e6c864;
+$freelancer: #80aa40;
+
+.tags {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 700px;
+  @media (max-width: $desktop_xsm) {
+    justify-content: flex-end;
+  }
+  @media (max-width: $mobile) {
+    justify-content: flex-start;
+  }
+div {
+    margin: 10px;
+  }
+  &__tipo {
+    
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 30px;
+    &__clt {
+      background-color: $clt;
+      color: white;
+    }
+    &__pj {
+      background-color: $pj;
+      color: white;
+    }
+    &__estagio {
+      background-color: $estagio;
+    }
+    &__freelancer {
+      background-color: $freelancer;
+    }
+  }
+  &__cidade,
+  &__modalidade,
+  &__nivel {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+  &__salario {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+    color: $red;
+    font-size: 1.25rem;
+  }
+}

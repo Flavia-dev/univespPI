@@ -1,0 +1,115 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+$clt: #d73b3b;
+$pj: #30201e;
+$estagio: #e6c864;
+$freelancer: #80aa40;
+
+.item {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #e4e5ea; 
+  color: #333333; 
+  padding: 0.5 rem;
+  border-style: outset;
+  border-radius: 5px;
+  box-shadow: 0.6em 0.5em 0.4em gray;
+  width: 95%;
+  align-items: center;
+
+  &__imagem {
+    min-width: 240px;
+    @media (max-width: $desktop_xsm) {
+      width: 100%;
+    }
+    img {
+      border-radius: 8px;
+      width: 100%;
+    }
+  }
+  &__descricao {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+    @media (max-width: $desktop_xsm) {
+      flex-direction: row;
+      margin-top: 20px;
+      padding: 0;
+    }
+  }
+  &__titulo {
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    p {
+      color: $dark-grey;
+      font-size: 1.3rem;
+      font-weight: 600;
+      max-width: 600px;
+      margin-bottom: 20px;
+    }
+  }
+  &__tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    max-width: 700px;
+    @media (max-width: $desktop_xsm) {
+      justify-content: flex-end;
+    }
+    @media (max-width: $mobile) {
+      justify-content: flex-start;
+    }
+    > div {
+      margin: 10px;
+    }
+  }
+  &__tipo {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 30px;
+    &__clt {
+      background-color: $clt;
+      color: white;
+    }
+    &__pj {
+      background-color: $pj;
+      color: white;
+    }
+    &__estagio {
+      background-color: $estagio;
+    }
+    &__freelancer {
+      background-color: $freelancer;
+    }
+  }
+  &__modalidade,
+  &__salario {
+    color: $red;
+    font-size: 1.7rem;
+    font-weight: 600;
+    max-width: 600px;
+  }
+  &__nivel,
+  &__cidade{
+    color: $dark-grey;
+    font-size: 1.3rem;
+    font-weight: 600;
+    max-width: 600px;
+  }
+}

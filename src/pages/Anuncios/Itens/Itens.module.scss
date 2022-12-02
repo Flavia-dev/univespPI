@@ -1,0 +1,18 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+
+.itens {
+    margin-top: 40px;
+    background: #fff;
+    width: 50%;
+    justify-items: center;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}

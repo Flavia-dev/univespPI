@@ -1,0 +1,142 @@
+[
+    {
+        "titulo": "Analista de Suporte de TI",
+        "descricao": "Realizar a abertura e tratativa de chamados até sua conclusão",                         
+        "modalidade": "Presencial",
+        "nivel":"Pleno",
+        "cidade": "Votorantim",
+        "empresa": "Nova Empresa",
+        "salario": 2500.00,
+        "id":1,
+        "categoria": {
+          "id": 1,
+          "label": "CLT"
+        }
+    },
+    {
+        "titulo": "Analista de Segurança da Informação",
+        "descricao": "Tempo integral",
+        "modalidade": "Presencial",
+        "nivel":"Pleno",
+        "cidade": "Itu",
+        "empresa": "Nova Empresa",
+        "salario": 4000.00,
+        "id":2,
+        "categoria": {
+          "id": 2,
+          "label": "PJ"
+        }
+      },
+    {
+        "titulo": "Analista de Suporte ",
+        "descricao": "Preparar ofertas técnicas e comerciais através de levantamento interno de custos referente à construção civil e montagem eletromecânica de produtos, ou sistemas ou serviços",
+        "modalidade": "Híbrido",
+        "nivel":"Junior",
+        "cidade": "Sorocaba",
+        "empresa": "ABB Brasil",
+        "salario": 2000.00,
+        "id":3,
+        "categoria": {
+          "id": 2,
+          "label": "PJ"
+        }
+    },
+    {
+        "titulo": "Analista de TI",
+        "descricao": "Desenvolver e implantar automação de determinadas tarefas e trabalhos da Empresa, com objetivo de Redução de Custos;",
+        "modalidade": "Híbrido",
+        "nivel":"Senior",
+        "cidade": "Sorocaba",
+        "empresa": "Grupo Panna",
+        "salario": 10000.00,
+        "id":4,
+        "categoria": {
+          "id": 1,
+          "label": "CLT"
+        }
+    },
+    {
+        "titulo": "Analista de sustentação",
+        "descricao": "ajudar na sustentação e análise de incidentes de produção dos nossos produtos. Em conjunto com os times de desenvolvimento;",
+        "modalidade": "Remoto",
+        "nivel":"Junior",
+        "cidade": "Sorocaba",
+        "empresa": "SOUTH SYSTEM ",
+        "salario": 1500.00,
+        "id":5,
+        "categoria": {
+          "id": 3,
+          "label": "Estagio"
+        }
+    },
+    {
+        "titulo": "ANALISTA DE SUPORTE/ TI",
+        "descricao": "suporte aos usuários, administrar os computadores, impressoras e toda parte infra.",
+        "modalidade": "Presencial",
+        "nivel":"Pleno",
+        "cidade": "Porto Feliz",
+        "empresa": "Valle RH",
+        "salario": 3500.00,
+        "id":6,
+        "categoria": {
+          "id": 1,
+          "label": "CLT"
+        }
+    },
+    {
+        "titulo": "ANALISTA DE TI",
+        "descricao": "Atuação em um parque de aproximadamente 80 usuários, onde será estabelecido o contado direto com as estacoes, bem como os lideres das áreas e a diretoria da organização",
+        "modalidade": "Presencial",
+        "nivel":"Senior",
+        "cidade": "Sorocaba",
+        "empresa": "Burh ",
+        "salario": 15000.00,
+        "id":7,
+        "categoria": {
+          "id": 2,
+          "label": "PJ"
+        }
+    },
+    {
+        "titulo": "Gerente de Programa II",
+        "descricao": "Gerenciar o processo de reciclagem de plásticos no Sinctronics, sendo o responsável técnico pela produção e desenvovimento de novas resinas recicladas e aditivos.",
+        "modalidade": "Presencial",
+        "nivel":"Senior",
+        "cidade": "Sorocaba",
+        "empresa": "Flex",
+        "salario": 20000.00,
+        "id":8,
+        "categoria": {
+          "id": 1,
+          "label": "CLT"
+        }
+    },
+    {
+        "titulo": "Analista de Dados",
+        "descricao": "Apoiar a jornada de transformação, identificar oportunidades de engajamento e posicionamento da marca Tecnologia;",
+        "modalidade": "Remoto",
+        "nivel":"Junior",
+        "cidade": "Sorocaba",
+        "empresa": "Banco Pan",
+        "salario": 1000.00,
+        "id":9,
+        "categoria": {
+          "id": 3,
+          "label": "Estagio"
+        }
+    },
+    {
+        "titulo": "Programador Mobile",
+        "descricao": "Uma empresa sediada nos EUA, que está construindo uma plataforma multiômica integradora capaz de medir dados biológicos, está procurando contratar um Programador Python. ",
+        "modalidade": "Remoto",
+        "nivel":"Pleno",
+        "cidade": "Sorocaba",
+        "empresa": "JPL",
+        "salario": 10000.00,
+        "id":10,
+        "categoria": {
+          "id": 4,
+          "label": "Freelancer"
+        }
+    }
+  ]
